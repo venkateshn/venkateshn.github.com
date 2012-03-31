@@ -1,6 +1,17 @@
 body
  {    
-background-color: #FFFF9E;
+
+background-image:url('images.jpeg');
+
+}
+
+#parent
+{
+margin-top:100px;
+margin-left:25px;
+margin-right:25px;
+height:800px;
+background-color:white;
 
 }
 #ul
@@ -101,11 +112,15 @@ background-position: left top;
 }
 a{text-decoration:none;
 }
-post_id{ 
-	left: 260px;
+#post_id{ 
+	
     position: absolute;
+    float:left;
+    left: 45px;
+        font-size: 25px;
+
     text-align: left;
-    top: 58px;
+    top: 45px;
     width: 223px;
     z-index: 8;
 }
@@ -123,5 +138,30 @@ post_id{
     padding: 0;
  
  }
+ #post_content0{
+    font-family: 'Droid Serif',serif;
+    line-height: 1.7;
+ 
+ 
+ 
+ }
+ post_content1{
+ 
+ 
+ }
+ post_content2{
+ 
+ 
+ }
+
+ #Essay-id
+ {
+	position:relative;
+	top:150px;
+	left:15px;
+	margin-right:25px;
+ 
+ }
+ 
 
 
