@@ -23,34 +23,12 @@ background-color: #FFFF9E;
     position: absolute;
     text-align: left;
     top: 58px;
-    width: 223px;
+    width: 583px;
     z-index: 8;
 }
 h1 {
-    background-color: #0D2730;
-    color: #FFFFFF;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    margin: 0;
-    padding: 0;
-}
-#about_emp02
-{
-    left: 260px;
-    position: absolute;
-    text-align: left;
-    top: 88px;
-    width: 343px;
-    z-index: 8;
-}
-
-h1
-{
-background-color: #0D2730;
-    color: #FFFFFF;
+   
+    
     font-family: Georgia,"Times New Roman",Times,serif;
     font-size: 24px;
     font-style: italic;
@@ -61,9 +39,12 @@ background-color: #0D2730;
 }
 
 
-p#about01 {
-    left: 260px;
-    position: absolute;
+
+
+
+p#about01 { position: absolute;
+    left: 300px;
+   
     top: 125px;
     width: 256px;
     }
@@ -83,37 +64,64 @@ background-position: left top;
     height: 295px;
     left: 526px;
     position: absolute;
+    top: 150px;
+    width: 262px;
+    border-radius:10px;
+   box-shadow: 12px 12px 12px #000;
+
+}
+.img
+{
+
+    height: 295px;
+    left: 526px;
+    
     top: 120px;
     width: 262px;
-    text-shadow: 0 1px 0 #FFFFFF;
-
-
-}
-ul
-{
-list-style-type:none;
-margin:0;
-color: #1E1E1E;
-padding: 6px;
-float: right;
-font-family: 'Droid Sans',sans-serif;
-font-size: 16px;
-margin-top: 25px;
-text-transform: uppercase;
-text-decoration:none;
-
+    border-radius:10px;
+   box-shadow: 12px 12px 12px #000;
 
 }
-li
-{
-display:inline;
-color: #1E1E1E;
-    padding: 6px;
-    text-decoration: none;
-    margin-top:25px;
-    text-transform:uppercase;
-    text-decoration:none;
+
+#menu_id{
+	float: right;
+   
+      color: #1E1E1E;
+   padding-left: 350px;
+   padding-right: 20px;
+   font-family: 'Droid Sans',sans-serif;
+   font-size: 20px;
+   margin-top: 25px;
+   text-transform: uppercase;
+   text-decoration:none;
+   display:inline;
+       
+
+
 }
 a{text-decoration:none;
 }
+post_id{ 
+	left: 260px;
+    position: absolute;
+    text-align: left;
+    top: 58px;
+    width: 223px;
+    z-index: 8;
+}
+ h2
+ {
+ position:absolute;
+ background-color: #0D2730;
+    color: #FFFFFF;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top:70px;
+    padding: 0;
+ 
+ }
+
 
