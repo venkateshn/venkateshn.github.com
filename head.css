@@ -7,11 +7,15 @@ background-image:url('images.jpeg');
 
 #parent
 {
+
+position:relative;
 margin-top:100px;
 margin-left:25px;
 margin-right:25px;
-height:800px;
+height:200%;
+overflow:auto;
 background-color:white;
+
 
 }
 #ul
@@ -86,7 +90,7 @@ background-position: left top;
 
     height: 295px;
     left: 526px;
-    
+   
     top: 120px;
     width: 262px;
     border-radius:10px;
@@ -116,7 +120,7 @@ a{text-decoration:none;
 	
     position: absolute;
     float:left;
-    left: 45px;
+    left: px;
         font-size: 25px;
 
     text-align: left;
@@ -159,7 +163,29 @@ a{text-decoration:none;
 	position:relative;
 	top:150px;
 	left:15px;
+	height:80%;
 	margin-right:25px;
+ 
+ }
+ #Essays-id
+ {
+    color: #578E17;
+    font: small-caps 22px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 20px;
+    padding-top:90px;
+    padding-left:45px;
+ }
+ #mine
+ {
+ width:50%;
+ margin-top:-150px;
+ }
+ .img1
+ {
+ float:right;
+ margin-top:-150px;
+ margin-right:50px;
+  height:40%;
  
  }
  
