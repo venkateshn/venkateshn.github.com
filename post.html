@@ -50,74 +50,7 @@
 	                   
 	                   <p>iii)git push. This "pushes" you committed changes up to the server. </p>
 	
-	<b>prune</b>
 	
-	<p>Sometimes branches are deleted from a remote repo. By default, <b>git fetch </b>will not remove any remote-tracking branches that have been deleted on </p>
-	<p>the remote repo. Running <b>git remote prune REMOTENAME </b>will delete these tracking branches.</p>
-
-	<b>Pushing a branch</b>
-	
-	<p>To push a local branch to an established remote, you simply need to use <b>git push REMOTENAME BRANCHNAME </b>If you don’t want to use the same </p>
-	<p>name on the remote branch you can use <b>git push REMOTENAME LOCALBRANCHNAME:REMOTEBRANCHNAME.</b></p>
-	<b>Dealing with  non-fast-forward errors</b>
-
-	<p>From time to time you may encounter this error while pushing:</p
-	
-		<p>$ git push origin master</p>
-	<p>To ../remote/</p>
-	<p>! [rejected]        master -> master (non-fast forward)</p>
-	<p>error: failed to push some refs to '../remote/'</p>
-	<p>To prevent you from losing history, non-fast-forward updates were rejected</p>
-	<p>Merge the remote changes before pushing again.  See the 'non-fast forward'</p>	
-	<p>section of 'git push --help' for details.</p>
-	
-	
-	
-	<p>This error can be a bit overwhelming at first, do not fear. Simply put, git cannot make the change on the remote without losing commits, so it refuses the push. Usually this is caused by another user pushing to the same branch. You can remedy this by fetching and merging the remote branch, or using pull to perform both at once.</p>
-	<p>In other cases this error is a result of destructive changes made locally by using commands like <b>git commit --amend </b>or <b>git rebase.</b> While you can override the remote by adding <b>--force </b>to the push command, you should only do so if you are absolutely certain this is what you want to do. Force-pushes can cause issues for other users that have fetched the remote branch, and is considered bad practice. When in doubt, don’t force-push.</p>
-	<b>Pushing Tags</b>
-	<p>By default, push will only send the ref you specify. To push a single tag you can simply use <b>git push REMOTENAME TAGNAME</b>. To push all tags while </p>
-	<p>pushing another branch, you can use <b>git push REMOTENAME BRANCHNAME --tags.</b></p>
-	
-	<b>Command Line</b>
-	
-	
-	<b>I have wonderful thoughts on UNIX commands,some of things i' m  sharing here  :</b>
-	
-	<p>optionsare special kind of arguments that would add more meaning to the command. Theycome along with the '-' sign.  e.g.: ls -l</p>
-	<p>e.g.: ls -l</p>
-	
-	<p>Thiscommand would give a long listing of the files in the directory.</p>
-	
-	
-	<p> '<b>man</b>'command would get the manual page for the command specified. Some commonly usedoptions :</p>
-	
-	<p> e --> will give one line introduction tothe command</p>
-	
-	<p>   k -->"$ man -k key_word", this would take the key word and  get a short description from all man pages that contains this   key word</p>
-	
-	<p> '<b>cat</b> ' is an versatile command that is used to create, display and append text tofiles.</p>
-	<p> For creating a file</p> 
-	
-	
-	        <p> $ cat > file_name</p>
-	        <p>file contents....</p>
-	 <p>For viewing a file</p>      
-	  
-	   <p> $cat>  file_name</p>
-	  <p>For appending content to a file  </p>
-	  
-	    <p>$cat>> file_name</p>
-	       <p> file contents.....</p>
-	      <p>'<b>egrep</b>' isnothing but extended grep, which enhances the pattern matching capability ofthe grep command</p> 
-	    <p>Example: $ egrep -i '(siva|senthil)' file_name</p>
-	    <p>Willsearch for the patterns 'siva' and 'senthil' in the file file_name</p>
-				<p> $ egrep -i '(siva|senthil)kumar' file_name</p>
-		<p>Willsearch for the patterns 'sivakumar' and 'senthilkumar' in the file file_name</p>		
-		<p>'egrep'provides us with an -f option where we can store the patterns in a file and usethe file to search for the pattern</p>
-		<p>Example: egrep -f temp.txt file_name</p>
-		<p>Willsearch the patterns stored in the file 'temp.txt' </p>
-		
 	 
 <br>
 <!-- begin htmlcommentbox.com -->
@@ -131,8 +64,7 @@
         scrolling="no" frameborder="0"
         style="border:none; width:450px; height:80px"></iframe>  
         <br>
-        <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>   
+        
 
 </div>
 
