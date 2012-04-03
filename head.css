@@ -1,7 +1,8 @@
 body
- {    
+{
 
 background-image:url('images.jpeg');
+background-size:100% 200%;
 
 }
 
@@ -12,45 +13,77 @@ position:relative;
 margin-top:100px;
 margin-left:25px;
 margin-right:25px;
-height:200%;
+
+height:100%;
 
 background-color:white;
 
 
 }
+#home {
+
+position: absolute;
+
+left: 20px;
+
+
+
+}
+
+
+
+#about {
+
+position: absolute;
+
+left: 130px;
+
+}
+
+
+
+#posts {
+
+position: absolute;
+
+left: 250px;
+
+}
+
+
 #ul
 {
 
 
 
-    float: right;
-    font-family: 'Droid Sans',sans-serif;
-    font-size: 16px;
-    margin-top: 25px;
-    text-transform: uppercase;
+float: right;
+font-family: 'Droid Sans',sans-serif;
+font-size: 16px;
+margin-top: 25px;
+text-transform: uppercase;
 
 
 
 }
 #about_emp01
 {
-    left: 260px;
-    position: absolute;
-    text-align: left;
-    top: 58px;
-    width: 583px;
-    z-index: 8;
+left: 260px;
+position: absolute;
+text-align: left;
+top: 58px;
+width: 583px;
+z-index: 8;
 }
 h1 {
-   
-    
-    font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    margin: 0;
-    padding: 0;
+
+
+font-family: Georgia,"Times New Roman",Times,serif;
+font-size: 24px;
+font-style: italic;
+font-weight: lighter;
+letter-spacing: 1px;
+margin: 0;
+padding: 0;
 }
 
 
@@ -58,127 +91,124 @@ h1 {
 
 
 p#about01 { position: absolute;
-    left: 300px;
-   
-    top: 125px;
-    width: 256px;
-    }
- p {
-    color: #0D2730;
-    font-family: Verdana,Arial,Helvetica,sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    line-height: 1.9em;
-    margin: 0;
-    padding: 0;
+left: 300px;
+
+top: 125px;
+width: 256px;
+}
+p {
+color: #0D2730;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+font-size: 14px;
+letter-spacing: 0.3px;
+line-height: 1.9em;
+margin: 0;
+padding: 0;
 }
 #img
 {
 background-position: left top;
-    background-repeat: no-repeat;
-    height: 295px;
-    left: 526px;
-    position: absolute;
-    top: 150px;
-    width: 262px;
-    border-radius:10px;
-   box-shadow: 12px 12px 12px #000;
+background-repeat: no-repeat;
+height: 295px;
+left: 526px;
+position: absolute;
+top: 150px;
+width: 262px;
+border-radius:10px;
+box-shadow: 12px 12px 12px #000;
 
 }
 .img
 {
 
-    height: 295px;
-    left: 526px;
-   
-    top: 120px;
-    width: 262px;
-    border-radius:10px;
-   box-shadow: 12px 12px 12px #000;
+height: 295px;
+left: 526px;
+
+top: 120px;
+width: 262px;
+border-radius:10px;
+box-shadow: 12px 12px 12px #000;
 
 }
 
 #menu_id{
-	
-	float: right;
-    color: #1E1E1E;
-   padding-left: 350px;
-   padding-right: 20px;
-   font-family: 'Droid Sans',sans-serif;
-   font-size: 20px;
-   margin-top: 25px;
-   text-transform: uppercase;
-   text-decoration:none;
-   display:inline;
-       
+position:relative;
+float: right;
+color: #1E1E1E;
+padding-left: 350px;
+padding-right: 20px;
+font-family: 'Droid Sans',sans-serif;
+font-size: 20px;
+margin-top: 25px;
+text-transform: uppercase;
+text-decoration:none;
+display:inline;
+
 
 
 }
 a{text-decoration:none;
 }
-#post_id{ 
-	
-    position: absolute;
-    float:left;
-    left: px;
-        font-size: 25px;
+#post_id{
 
-    text-align: left;
-    top: 45px;
-    width: 223px;
-    z-index: 8;
+position: absolute;
+float:left;
+left: px;
+font-size: 25px;
+
+text-align: left;
+top: 45px;
+width: 223px;
+z-index: 8;
 }
- h2
- {
- position:absolute;
- background-color: #0D2730;
-    color: #FFFFFF;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    margin-top:80px;
-    padding: 0;
- 
- }
- #post_content0{
-    font-family: 'Droid Serif',serif;
-    line-height: 1.7;
- 
- 
- 
- }
-  #Essay-id
- {
-	position:relative;
-	top:150px;
-	left:15px;
-	height:80%;
-	margin-right:25px;
- 
- }
- #Essays-id
- {
-    color: #578E17;
-    font: small-caps 24px "Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin-bottom: 20px;
-    padding-top:90px;
-    padding-left:60px;
- }
- #mine
- {
- width:50%;
- margin-top:-150px;
- }
- .img1
- {
- float:right;
- margin-top:-200px;
- margin-right:100px;
-  height:30%;
- 
- }
- 
+h2
+{
+position:absolute;
+background-color: #0D2730;
+color: #FFFFFF;
+font-family: Georgia,"Times New Roman",Times,serif;
+font-size: 24px;
+font-style: italic;
+font-weight: lighter;
+letter-spacing: 1px;
+margin-top:80px;
+padding: 0;
+
+}
+#post_content0{
+font-family: 'Droid Serif',serif;
+line-height: 1.7;
 
 
+
+}
+#Essay-id
+{
+position:relative;
+top:150px;
+left:15px;
+height:80%;
+margin-right:25px;
+
+}
+#Essays-id
+{
+color: #578E17;
+font: small-caps 24px "Helvetica Neue",Helvetica,Arial,sans-serif;
+margin-bottom: 30px;
+padding-top:90px;
+padding-left:60px;
+}
+#mine
+{
+width:50%;
+margin-top:-150px;
+}
+.img1
+{
+float:right;
+margin-top:-200px;
+margin-right:100px;
+height:30%;
+
+}
